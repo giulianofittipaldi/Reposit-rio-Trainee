@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F0F2F5;
+}
+#container{
+    display: flex;
+    width:75%;
+    margin: 100px auto;
+    gap: 50px;
+
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+}
+
+#direita{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+p{
+    font-size: 24px;
+}
+.parte-branca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+form button{
+    height: 40px;
+    background-color: #166fe5;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.criar-conta{
+    height: 40px;
+    width: 200px;
+    background-color:#42b72a;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
